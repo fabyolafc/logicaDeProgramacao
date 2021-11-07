@@ -1,0 +1,116 @@
+<meta charset="UTF-8">
+<script>
+    document.write("Eu acertei: " + 15/50*100 + "%" );
+</script>
+
+
+
+<br>
+<br>
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+ function calculaImc(altura, peso) {
+
+var imc = peso / (altura * altura);
+    mostra("O imc calculado é " + imc);
+}
+calculaImc(1.71, 73);
+calculaImc(1.72, 68);
+</script>
+
+
+<br>
+<br>
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+function calculaImc(altura, peso) {
+
+    var imc = peso / (altura * altura);
+    return imc;
+
+}
+
+var imcFlavio = calculaImc(1.71, 73);
+var imcAmigo = calculaImc(1.72, 68);
+
+mostra(imcFlavio);
+mostra(imcAmigo);
+
+</script>
+
+<br>
+<br>
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    function calculaImc(altura, peso) {
+
+        var imc = peso / (altura * altura);
+        return imc;
+    }
+
+    var imcCalculado = calculaImc(1.77, 75);
+    mostra("O meu IMC é : " + imcCalculado);
+</script>
+
+
+<br>
+<br>
+
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+    function calculaImc(altura, peso) {
+
+    return peso / (altura * altura);
+}
+
+    var totalImc = calculaImc(1.71, 73) + calculaImc(1.72, 68);
+    document.write("A soma dos imc's é " + totalImc);
+</script>
